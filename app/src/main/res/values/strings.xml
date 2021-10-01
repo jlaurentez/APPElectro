@@ -2,7 +2,7 @@
     <string name="app_name">AppElectroConsum</string>
     <string name="btnLogIn">Log In</string>
     <string name="textView2">Pantalla 2</string>
-    <string name="textView">Bienvenido al Home</string>
+    <string name="textView">Home</string>
     <string name="iniciar_sesion">Iniciar Sesión</string>
 
 </resources>
