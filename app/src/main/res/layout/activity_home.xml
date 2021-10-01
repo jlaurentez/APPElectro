@@ -62,7 +62,7 @@
         android:layout_width="138dp"
         android:layout_height="47dp"
         android:text="S/. 0.00"
-        android:textSize="25"
+        android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/textView5"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.699"
@@ -112,12 +112,14 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="337dp"
-        android:layout_height="47dp"
-        android:layout_marginBottom="204dp"
+        android:layout_width="261dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="172dp"
         android:text="Establece un Limite de Consumo para recibir ALERTAS"
+        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
         app:layout_constraintStart_toStartOf="parent" />
 
     <SeekBar
@@ -125,24 +127,29 @@
         style="@style/Widget.AppCompat.SeekBar.Discrete"
         android:layout_width="247dp"
         android:layout_height="42dp"
+        android:layout_marginTop="16dp"
         android:max="100"
         android:progress="3"
         android:thumbTint="#E3BB58"
         android:thumbTintMode="src_atop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.122"
         app:tickMarkTint="#B66025"
-        app:tickMarkTintMode="src_atop"
-        tools:layout_editor_absoluteX="82dp"
-        tools:layout_editor_absoluteY="567dp" />
+        app:tickMarkTintMode="src_atop" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="187dp"
         android:layout_height="31dp"
+        android:layout_marginTop="40dp"
         android:text="Este mes has consumido:"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="175dp" />
+        app:layout_constraintTop_toBottomOf="@+id/textViewBienvenida" />
 
     <TextView
         android:id="@+id/textViewMonto2"
@@ -153,10 +160,9 @@
         android:textSize="34sp"
         app:layout_constraintBottom_toTopOf="@+id/textView4"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.51" />
 
     <ImageView
         android:id="@+id/imageView"
